@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <style>
+            body{margin:0;display:flex;justify-content:right;align-items:center;height:100vh;
+            background-image: url("images/gato.jpeg");background-size: cover;background-repeat: no-repeat;
+            text-wrap:wrap;word-wrap:break-word;}
+            h1{color:white;font-size:8rem;font-family:Georgia;width:70vw;text-align:right;font-weight:bolder;padding-right:10vw;}
+        </style>
+    </head>
+    <body>
+            <h1 id="prueba"></h1>
+           
+        <script>
+            let a = ["hola mundo","que tal","que pases un buen dia"]
+            let i = 0; 
+            fnc();
+            function fnc() { if(i<a.length)
+            {document.getElementById("prueba").innerHTML=a[i];
+            i++;
+            setTimeout(fnc,3000); }
+            else {i=0; miF()} 
+             }
+
+        </script> 
+
+    </body>
+</html>
+    
